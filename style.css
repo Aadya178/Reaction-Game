@@ -31,7 +31,7 @@ body{
 
 	top: 130px;
 	left: 480px;
-	animation: block 1s infinite linear;
+	animation: block 1.25s infinite linear;
 }
 #cloud1 img{
 	width: 40px;
