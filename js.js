@@ -23,7 +23,7 @@ var checkDead= setInterval(function(){
 		block.style.display="none";
 		de=new Date();
 		var score=ds-de;
-		document.write("You made a highscore! ",score);
+		document.write("You made a highscore! ",Math.abs(score));
 		alert("You lose!  Refresh the page to play again.");
 	}
 },10);
